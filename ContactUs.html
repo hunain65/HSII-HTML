@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us</title>
+</head>
+<body style="background-color: bisque;">
+    <h1><strong><ins><center>Contact Form</center>  </ins></strong></h1>
+    <hr>    
+
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label>First Name*:</br>
+        <input type="text" name="FirstName" placeholder="Enter your First Name" /> </label></br>
+        <label>Last Name*:</br>
+        <input type="text" name="LastName" placeholder="Enter your Last Name" /></label></br>
+        <label>Email Address*:</br>
+        <input type="text" name="EmailAddress" placeholder="example@abc.com" /></label></br>
+        <label>Telephone*:</br>
+        <input type="text" name="Telephone" /></label></br>
+        <label>Gender:</br>
+        <input type="radio" name="Gender" value="Male"/>
+        Male
+        <input type="radio" name="Gender" value="Female" />
+        Female</label></br>
+    </br>
+        Which province are you from?</br>   
+        <select name="province" />
+        <option value="Please Select">Please Select</option>
+        <option value="Sindh">Sindh</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Balochistan">Balochistan</option>
+        <option value="KPK">KPK</option>
+</select><br/><br/> 
+        <label>To receive updates from us please check the box!</label></br>
+        <input type="checkbox" name="updates" value="Yes">Yes
+
+ </fieldset>
+ <fieldset>
+     <legend>Message Box:</legend>
+     <textarea placeholder="Enter you message here..." style="background-color: beige; name="Comments" cols="100" rows="20" maxlength="500"></textarea>
+ </br>
+     <input type="submit" name="subform" value="Submit" onclick="alert('Form is successfully submited, Thanks!')" >
+    
+     <p align="right">Subscribe to our email list:
+            <input type="email" name="email" />
+            <input type="submit" name="subscribe"  value="Subscribe" />
+            </p>
+        </form>
+        <a  href="Curriculum Vitae2.html"><button>GoBack</button> </a>
+    
+ </fieldset>
+    
+</body>
+</html>
